@@ -16,6 +16,8 @@ route.post('/createData',(req,res) =>{
     })
 })
 
+
+
 route.get('/getDiseaseList',(req,res) =>{
     
     diseaseService.getDiseaseList().then((result) =>{
